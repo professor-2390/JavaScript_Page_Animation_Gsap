@@ -1,4 +1,4 @@
-# JavaScript_Page_Animation_Gsap
+# JavaScript Page Animation Using Gsap
 JavaScript Page Animation With GSAP
 ## Language
 - Html
