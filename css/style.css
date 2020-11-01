@@ -1,0 +1,118 @@
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgb(155, 119, 95);
+  background: linear-gradient(
+    45deg,
+    rgba(155, 119, 95, 1) 1%,
+    rgba(128, 87, 59, 1) 99%
+  );
+  z-index: -1;
+}
+
+nav 
+{
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  min-height: 10vh;
+  color: white;
+  align-items: center;
+}
+
+#logo 
+{
+  grid-column: 2/3;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hamburger 
+{
+  justify-self: end;
+}
+
+section 
+{
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero 
+{
+  height: 60%;
+  widows: 80%;
+  position: relative;
+}
+
+.hero::after 
+{
+  content: "";
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+}
+
+.hero img 
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headline 
+{
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  transform: translate(-20%, -70%);
+  color: #ffffff;
+  font-size: 100px;
+  z-index: 3;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Next Section */
+
+
+
+/* animations */
+
+@keyframes anime
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    100%
+    {
+        transform: translateY(-10px);
+    }
+}
+.menu
+{
+    width: 100%;
+    height: 100vh;
+}
