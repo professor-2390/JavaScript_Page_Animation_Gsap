@@ -4,5 +4,3 @@ JavaScript Page Animation With GSAP
 - Html
 - Css
 - Javascript
-## Developer
-- Sakib
